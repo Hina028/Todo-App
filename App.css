@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 500px;
+  background: #770a8d;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(201, 56, 56, 0.5);
+}
+
+.app h1 {
+  color:#fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem ;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.todo-wrap{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.todo-wrap .todo {
+  flex: 50%;
+  background: #101111;
+  padding: 0.5rem;
+  font-size: 18px;
+  color: #fff;
+}
+
+.todo-wrap button{
+  background: #ee113d;
+  border:none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: all ease 0.2s;
+}
+
+.todo-wrap button:hover{
+  opacity: 0.9;
+}
+
+.no-todo{
+  text-align: center;
+  padding: .5rem;
+  margin: 1rem 0;
+  font-size: 20px;
+  color:#201d20;
+  background-color: rgb(135, 138, 139);
+}
+
+.addtodo{
+  margin-top: 2rem;
+}
+
+.addtodo form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addtodo label{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+
+.addtodo input{
+  height: 2.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-style: normal;
+  text-indent: .5rem;
+  padding-right: 1rem;
+}
+
+.message{
+  font-size: 16px;
+  text-align: center;
+  padding: .5rem;;
+  background:#47f071;  
+}
+
